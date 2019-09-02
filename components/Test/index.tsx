@@ -1,3 +1,3 @@
 import './index.less';
 
-export default () => <div>Welcdddddddddddddddddddome to next.js!</div>
+export default () => <div>Welc to next.js!</div>
