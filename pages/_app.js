@@ -1,6 +1,6 @@
 import React from 'react';
 import App, { Container } from 'next/app';
-// import Layout from 
+import Layout from 'components/Layout';
 
 export default class extends App {
   render() {
@@ -8,7 +8,9 @@ export default class extends App {
 
     return (
       <Container>
-        <Component {...pageProps} />
+        <Layout>
+          <Component {...pageProps} />
+        </Layout>
       </Container>
     );
   }
